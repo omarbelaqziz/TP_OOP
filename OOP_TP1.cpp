@@ -9,8 +9,12 @@ using namespace std;
 int main()
 {
 //------------- EXERCICE 1
+    Complex* z3 = new Complex();
+    cout << sizeof(z3) << endl;
     Complex z1(5, 4);
+    Complex z2(z1); // constructeur de recopie
     z1.affichage();
+    z2.affichage();
     cout << "le module de Z1 est : " << z1.module() << endl;
     cout << "le conjuge de Z1 est : "; z1.conjuge().affichage();
     cout << endl << endl;

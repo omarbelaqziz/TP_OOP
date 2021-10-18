@@ -24,12 +24,18 @@
     <ClCompile Include="pointEtCercle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="compte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Complex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pointEtCercle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compte.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

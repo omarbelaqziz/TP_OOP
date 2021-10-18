@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Complex.cpp" />
+    <ClCompile Include="compte.cpp" />
     <ClCompile Include="OOP_TP1.cpp" />
     <ClCompile Include="pointEtCercle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="compte.h" />
     <ClInclude Include="Complex.h" />
     <ClInclude Include="pointEtCercle.h" />
   </ItemGroup>
